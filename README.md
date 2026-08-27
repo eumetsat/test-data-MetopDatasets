@@ -32,6 +32,6 @@ Note that the last part of the file name specify the number of data records incl
 ## IASI PPC Eigenvector files
 | **file name**                                                                   | **size**    |
 |---------------------------------------------------------------------------------|-------------|
-| IASI_EV1_xx_Mxx_20200131000000Z_xxxxxxxxxxxxxxZ_20200131000201Z_xxxx_xxxxxxxxxx |  33.917 KiB |
-| IASI_EV2_xx_Mxx_20200131000000Z_xxxxxxxxxxxxxxZ_20200131000201Z_xxxx_xxxxxxxxxx |  81.856 KiB |
-| IASI_EV3_xx_Mxx_20200131000000Z_xxxxxxxxxxxxxxZ_20200131000201Z_xxxx_xxxxxxxxxx |  92.125 KiB |
+| IASI_EV1_xx_Mxx_20200131000000Z_xxxxxxxxxxxxxxZ_20200131000201Z_xxxx_xxxxxxxxxx |  33.917 MiB |
+| IASI_EV2_xx_Mxx_20200131000000Z_xxxxxxxxxxxxxxZ_20200131000201Z_xxxx_xxxxxxxxxx |  81.856 MiB |
+| IASI_EV3_xx_Mxx_20200131000000Z_xxxxxxxxxxxxxxZ_20200131000201Z_xxxx_xxxxxxxxxx |  92.125 MiB |
