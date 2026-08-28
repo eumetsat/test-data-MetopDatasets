@@ -1,6 +1,5 @@
 # Test data for MetopDatasets
-This repository contains test data for the [MetopDatasets](https://github.com/eumetsat/MetopDatasets.jl) package. This repository is not intended to be used alone but is a resource used by MetopDatasets for automated testing and precompilation. The repository contains a selection of publicly available [native METOP products](https://data.eumetsat.int/extended?query=&filter=satellite__Metop&filter=availableFormats__EPS%20Native) modified to reduce the file sizes.
-
+This repository contains test data for the [MetopDatasets](https://github.com/eumetsat/MetopDatasets.jl) package. This repository is not intended to be used alone but is a resource used by MetopDatasets for automated testing and precompilation. The repository contains a selection of publicly available [native METOP products](https://data.eumetsat.int/extended?query=&filter=satellite__Metop&filter=availableFormats__EPS%20Native) modified to reduce the file sizes. The repository also contains IASI principal component vectors used to reconstruct the IASI spectrum from [IASI Level 1 Principal Component Scores ](https://user.eumetsat.int/catalogue/EO:EUM:DAT:METOP:IASPCS01/overview).
 
 ## Attribution 
 Contains modified EUMETSAT Metop products 2025. See [EUMETSAT user guide - Attribution](https://user.eumetsat.int/resources/user-guides/data-registration-and-licensing#ID-Attribution) for more information.
@@ -29,3 +28,10 @@ Note that the last part of the file name specify the number of data records incl
 | IASI_SND_02_M03_20250120105357Z_cropped_10.nat |   3.455 MiB | IASI_SND_02_M03_20250120105357Z_20250120123253Z_N_O_20250120123416Z.nat |
 | IASI_xxx_1C_M01_20240925202059Z_cropped_5.nat  |  13.234 MiB | IASI_xxx_1C_M01_20240925202059Z_20240925220258Z_N_O_20240925211316Z.nat |
 | MHSx_xxx_1B_M03_20250915084851Z_cropped_10.nat |  49.998 KiB | MHSx_xxx_1B_M03_20250915084851Z_20250915103051Z_N_O_20250915102514Z.nat |
+
+## IASI PPC Eigenvector files
+| **file name**                                                                   | **size**    |
+|---------------------------------------------------------------------------------|-------------|
+| IASI_EV1_xx_Mxx_20200131000000Z_xxxxxxxxxxxxxxZ_20200131000201Z_xxxx_xxxxxxxxxx |  33.917 MiB |
+| IASI_EV2_xx_Mxx_20200131000000Z_xxxxxxxxxxxxxxZ_20200131000201Z_xxxx_xxxxxxxxxx |  81.856 MiB |
+| IASI_EV3_xx_Mxx_20200131000000Z_xxxxxxxxxxxxxxZ_20200131000201Z_xxxx_xxxxxxxxxx |  92.125 MiB |
